@@ -209,6 +209,15 @@
             Simpan & Hubungkan
           </button>
         </div>
+
+        <!-- Tombol Cepat Isi Data Contoh Otomatis ke Spreadsheet -->
+        <div class="mt-4 pt-3 border-t border-slate-100 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+          <p class="text-xs text-slate-500">Spreadsheet Anda masih kosong? Klik tombol ini untuk mengisi contoh 4 model soal, jadwal ujian, dan siswa:</p>
+          <button id="btn-seed-data" onclick="AdminPortal.seedSampleData()" class="bg-amber-500 hover:bg-amber-600 active:scale-95 text-white font-bold text-xs px-4 py-2 rounded-xl shadow transition flex items-center gap-1.5 shrink-0">
+            <i data-lucide="sparkles" class="w-4 h-4"></i>
+            <span>⚡ Isi Contoh Soal & Jadwal ke Spreadsheet</span>
+          </button>
+        </div>
       </div>
 
       <!-- Manajemen Pengguna (Tabel Users) -->
